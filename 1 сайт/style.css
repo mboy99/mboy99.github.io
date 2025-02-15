@@ -1,0 +1,35 @@
+body{
+ background-color: rgb(115, 0, 255);
+ font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+img{
+height: 400px;
+width: 600px;
+}
+div{
+    background-color:aqua ;
+    color: blueviolet;
+}
+div p,div h1,div h4{
+    color: blueviolet;
+}
