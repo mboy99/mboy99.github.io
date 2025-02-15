@@ -1,0 +1,25 @@
+main{
+    column-count: 4;
+    column-gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+body {
+    background-color: aquamarine;
+}
+h1{
+    color:black;
+    text-align: center;
+}
+.image{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    height: 300px;
+    box-shadow: 0 0 15px 5px rgba(45, 43, 43, 0.863);
+    filter:opacity(0.95)
+}
+.image:hover{
+transition: 0.7s;
+filter:opacity(1)
+}
