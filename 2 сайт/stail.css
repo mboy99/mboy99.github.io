@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.photo{
+    width: calc(50% - 20px);
+    height: 400px;
+    background-color: aqua;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(158, 255, 247);
+    justify-content: center;
+    box-shadow: 0 0 10px 2px gray;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-family: "Barriecito", serif;
+}
+.photo1{
+    background-image: url(img/бмвм5ф90.webp);
+}
+.photo2{
+    background-image: url(img/водопад.jpg);
+}
+.photo3{
+    background-image: url(img/закат.webp);
+}
+.photo4{
+    background-image: url(img/зеленый\ луч.jpg);
+}
+.photo5{
+    background-image: url(img/комбайнер.jpg);
+}
+.photo6{
+    background-image: url(img/маенкрафт.jpg);
+}
+.photo7{
+    background-image: url(img/молния.jpg);
+}
+.photo8{
+    background-image: url(img/москва.jpeg);
+}
+.photo9{
+    background-image: url(img/призракиброкена.jpg);
+}
+.photo10{
+    background-image: url(img/прирдалесгора.jpg);
+}
+.photo11{
+    background-image: url(img/природа.jpg);
+}
+.photo12{
+    background-image: url(img/смерч.webp);
+}
+.photo13{
+    background-image: url(img/сосмолетразрушаный.jpg);
+}
+.photo14{
+    background-image: url(img/треугольник.jpg);
+}
+.photo15{
+    background-image: url(img/черная\ дыра.jpg);
+}
+.photo16{
+    background-image: url(img/эдик.jpg);
+}
+.photo:hover{
+    transform: scale(1.2) rotate(15deg);
+    transition: 1s;
+
+}
