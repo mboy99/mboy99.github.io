@@ -1,0 +1,100 @@
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.header-item{
+    color: #c19400;
+    font-size: 30px;
+    text-decoration: none;
+    transform: translateY(0px);
+    transition: 0.5s;
+}
+.header-item:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+}
+#clickButton{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+.score{
+    font-size: 25px;
+    margin: 20px;
+}
+#clickButton:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#clickButton:active{
+    transform: scale(0.9);
+}
+.booster-container{
+    width: 900px;
+    margin: 20px auto;
+}
+.booster-item{
+    background-color: #cacaca;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.booster-img{
+    width: 250px;
+    height: auto;
+}
+.booster-info{
+    width: 250px;
+    text-align: left;
+}
+.booster-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.booster-price{
+    
+}
+.booster-button{
+    padding: 10px 15px;
+    background-color: #c19400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booster-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed
+}
+
+.boosters{
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    column-count: 2;
+}
