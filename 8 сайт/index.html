@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">КиноПоиск🎥</h1>
+            <form class="search" id="searchF">
+                <input type="text" id="search" placeholder="Поиск фильма">
+                <button type="submit" onclick="searchFilm()">Поиск</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="movies" id="movies">
+                
+            </section>
+        </div>
+        <div class="selection">
+            <h3 class="selection-title">Популярные сейчас</h3>
+            <seaction class="movies" id="popular"></seaction>
+        </div>
+        <div class="selection">
+            <h3 class="selection-title">Подборка семейных фильмов</h3>
+            <seaction class="movies" id="family"></seaction>
+        </div>
+        <div class="selection">
+            <h3 class="selection-title">Подборка фильмов про зомби</h3>
+            <seaction class="movies" id="zombie"></seaction>
+        </div>
+    </main>
+    <div class="modal" id="movie-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">X</span>
+            <div class="modal-body">
+                <img src="" alt="Постер" id="modal-poster">
+                <h2 id="modal-title"></h2>
+                <p><strong>Год:</strong> <span id="modal-year"></span></p>
+                <p><strong>Рейтинг:</strong>  <span id="modal-rating"></span></p>
+                <p id="modal-description"></p>
+                <button class="modal-button" id="modalButton" onclick="displayVideo()">Посмотреть трейлеры</button>
+                <button class="modal-button" id="buttonSite" onclick="whereWatch()">Где посмотреть фильм</button>
+                <div class="traylers" id="traylers">
+                    
+                </div>
+                <div class="sites" id="sites">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>
